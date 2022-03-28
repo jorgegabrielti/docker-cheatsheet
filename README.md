@@ -19,22 +19,3 @@ Table of contents
 
 Requirements
 ==========
-### **[Docker image scan]()**
-First, we create a **Dockerfile**.
-```bash
-cat > Dockerfile << EOF
-FROM gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine
-RUN apk --update add openjdk7-jre
-RUN gcloud components install app-engine-java kubectl
-EOF
-```
-
-Make a login with command:
-```bash
-docker scan --login
-```
-
-Then, we be use the follow command to scan docker images:
-```bash
-docker scan --file Dockerfile cloud-sdk:alpine
-```
