@@ -1,0 +1,2467 @@
+
+Testing gcr.io/google.com/cloudsdktool/google-cloud-cli...
+
+✗ Low severity vulnerability found in zlib/zlib1g
+  Description: CVE-2018-25032
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-ZLIB-2433934
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > zlib/zlib1g@1:1.2.11.dfsg-1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in xdg-user-dirs
+  Description: Improper Access Control
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-XDGUSERDIRS-272427
+  Introduced through: xdg-user-dirs@0.17-2
+  From: xdg-user-dirs@0.17-2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in util-linux
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-UTILLINUX-1534833
+  Introduced through: meta-common-packages@meta, util-linux/bsdutils@1:2.33.1-0.1
+  From: meta-common-packages@meta > util-linux@2.33.1-0.1
+  From: meta-common-packages@meta > util-linux/fdisk@2.33.1-0.1
+  From: meta-common-packages@meta > util-linux/libblkid1@2.33.1-0.1
+  and 6 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in util-linux
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-UTILLINUX-2401082
+  Introduced through: meta-common-packages@meta, util-linux/bsdutils@1:2.33.1-0.1
+  From: meta-common-packages@meta > util-linux@2.33.1-0.1
+  From: meta-common-packages@meta > util-linux/fdisk@2.33.1-0.1
+  From: meta-common-packages@meta > util-linux/libblkid1@2.33.1-0.1
+  and 6 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-1079067
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-1079073
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-405264
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-405344
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-405387
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-405477
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-405858
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-406148
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tar
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TAR-1063001
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.30+dfsg-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TAR-312331
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.30+dfsg-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in tar
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TAR-341203
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.30+dfsg-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: Authentication Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-1291056
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: CVE-2021-3997
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-2332026
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-305144
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: Privilege Chaining
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-345386
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: Improper Privilege Management
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-345391
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-542807
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in systemd/systemd-sysv
+  Description: Improper Privilege Management
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SYSTEMD-570991
+  Introduced through: systemd/systemd-sysv@241-7~deb10u8, dbus/dbus-user-session@1.12.20-0+deb10u1, systemd/libpam-systemd@241-7~deb10u8, meta-common-packages@meta, systemd/libnss-systemd@241-7~deb10u8
+  From: systemd/systemd-sysv@241-7~deb10u8
+  From: dbus/dbus-user-session@1.12.20-0+deb10u1 > systemd/libpam-systemd@241-7~deb10u8 > systemd/systemd-sysv@241-7~deb10u8
+  From: systemd/libpam-systemd@241-7~deb10u8
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-1569415
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-2407046
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: CVE-2019-19244
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-535712
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-537251
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: CVE-2019-19603
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-537598
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Improper Handling of Exceptional Conditions
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-539769
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-565214
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: CVE-2020-13631
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SQLITE3-570487
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > sqlite3/libsqlite3-0@3.27.2-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-306205
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > shadow/login@1:4.5-1.1
+  From: meta-common-packages@meta > shadow/passwd@1:4.5-1.1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-306230
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > shadow/login@1:4.5-1.1
+  From: meta-common-packages@meta > shadow/passwd@1:4.5-1.1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-306250
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > shadow/login@1:4.5-1.1
+  From: meta-common-packages@meta > shadow/passwd@1:4.5-1.1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-SHADOW-539852
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > shadow/login@1:4.5-1.1
+  From: meta-common-packages@meta > shadow/passwd@1:4.5-1.1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pyxdg/python3-xdg
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYXDG-349405
+  Introduced through: pyxdg/python3-xdg@0.25-5
+  From: pyxdg/python3-xdg@0.25-5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: CVE-2020-27619
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-1021148
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-1075120
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-1085111
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-1570178
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-1579740
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: CVE-2021-4189
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-2329041
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-2394829
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-279198
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-474392
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python3.7/libpython3.7-minimal
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON37-546419
+  Introduced through: meta-common-packages@meta, python-crcmod/python3-crcmod@1.7+dfsg-1+b1, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > python3.7/libpython3.7-minimal@3.7.3-2+deb10u3
+  From: python-crcmod/python3-crcmod@1.7+dfsg-1+b1 > python3-defaults/python3@3.7.3-1 > python3-defaults/libpython3-stdlib@3.7.3-1 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > python3.7/libpython3.7-stdlib@3.7.3-2+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-1063178
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: HTTP Request Smuggling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-1085863
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: CVE-2021-4189
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-2329040
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-306560
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-306596
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-474393
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-543815
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-546420
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-minimal
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHON27-584372
+  Introduced through: google-cloud-sdk-app-engine-go@378.0.0-0, python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/python2.7-minimal@2.7.16-2+deb10u1 > python2.7/libpython2.7-minimal@2.7.16-2+deb10u1
+  From: google-cloud-sdk-app-engine-go@378.0.0-0 > google-cloud-sdk-app-engine-python@378.0.0-0 > python2.7@2.7.16-2+deb10u1 > python2.7/libpython2.7-stdlib@2.7.16-2+deb10u1
+  and 8 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python-pip/python-pip-whl
+  Description: CVE-2021-3572
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHONPIP-1300166
+  Introduced through: python-pip/python3-pip@18.1-5
+  From: python-pip/python3-pip@18.1-5 > python-pip/python-pip-whl@18.1-5
+  From: python-pip/python3-pip@18.1-5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python-pip/python-pip-whl
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHONPIP-569423
+  Introduced through: python-pip/python3-pip@18.1-5
+  From: python-pip/python3-pip@18.1-5 > python-pip/python-pip-whl@18.1-5
+  From: python-pip/python3-pip@18.1-5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python-pip/python-pip-whl
+  Description: Directory Traversal
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHONPIP-609805
+  Introduced through: python-pip/python3-pip@18.1-5
+  From: python-pip/python3-pip@18.1-5 > python-pip/python-pip-whl@18.1-5
+  From: python-pip/python3-pip@18.1-5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python-defaults/libpython2-stdlib
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHONDEFAULTS-269278
+  Introduced through: python-crcmod/python-crcmod@1.7+dfsg-1+b1
+  From: python-crcmod/python-crcmod@1.7+dfsg-1+b1 > python-defaults/python@2.7.16-1 > python-defaults/libpython-stdlib@2.7.16-1 > python-defaults/libpython2-stdlib@2.7.16-1
+  From: python-crcmod/python-crcmod@1.7+dfsg-1+b1 > python-defaults/python@2.7.16-1 > python-defaults/python2@2.7.16-1 > python-defaults/libpython2-stdlib@2.7.16-1
+  From: python-crcmod/python-crcmod@1.7+dfsg-1+b1 > python-defaults/python@2.7.16-1 > python-defaults/libpython-stdlib@2.7.16-1
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python-cryptography/python3-cryptography
+  Description: Covert Timing Channel
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHONCRYPTOGRAPHY-1022252
+  Introduced through: python-cryptography/python3-cryptography@2.6.1-3+deb10u2, python-keyring/python3-keyring@17.1.1-1
+  From: python-cryptography/python3-cryptography@2.6.1-3+deb10u2
+  From: python-keyring/python3-keyring@17.1.1-1 > python-secretstorage/python3-secretstorage@2.3.1-2 > python-cryptography/python3-cryptography@2.6.1-3+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in python-cryptography/python3-cryptography
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PYTHONCRYPTOGRAPHY-1070576
+  Introduced through: python-cryptography/python3-cryptography@2.6.1-3+deb10u2, python-keyring/python3-keyring@17.1.1-1
+  From: python-cryptography/python3-cryptography@2.6.1-3+deb10u2
+  From: python-keyring/python3-keyring@17.1.1-1 > python-secretstorage/python3-secretstorage@2.3.1-2 > python-cryptography/python3-cryptography@2.6.1-3+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in perl
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PERL-1925980
+  Introduced through: libalgorithm-diff-perl@1.19.03-2, libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-5+b1, libalgorithm-merge-perl@0.08-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b5, git@1:2.20.1-2+deb10u3, meta-common-packages@meta
+  From: libalgorithm-diff-perl@1.19.03-2 > perl@5.28.1-6+deb10u1
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-5+b1 > perl@5.28.1-6+deb10u1
+  From: libalgorithm-merge-perl@0.08-3 > perl@5.28.1-6+deb10u1
+  and 7 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in perl
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PERL-327793
+  Introduced through: libalgorithm-diff-perl@1.19.03-2, libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-5+b1, libalgorithm-merge-perl@0.08-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b5, git@1:2.20.1-2+deb10u3, meta-common-packages@meta
+  From: libalgorithm-diff-perl@1.19.03-2 > perl@5.28.1-6+deb10u1
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-5+b1 > perl@5.28.1-6+deb10u1
+  From: libalgorithm-merge-perl@0.08-3 > perl@5.28.1-6+deb10u1
+  and 7 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345321
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345353
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345502
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-345530
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-572367
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE3-572368
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > pcre3/libpcre3@2:8.39-12
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in pcre2/libpcre2-8-0
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PCRE2-548863
+  Introduced through: git@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > pcre2/libpcre2-8-0@10.32-5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in patch
+  Description: Release of Invalid Pointer or Reference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PATCH-2324790
+  Introduced through: patch@2.7.6-3+deb10u1, build-essential@12.6
+  From: patch@2.7.6-3+deb10u1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > patch@2.7.6-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in patch
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PATCH-303854
+  Introduced through: patch@2.7.6-3+deb10u1, build-essential@12.6
+  From: patch@2.7.6-3+deb10u1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > patch@2.7.6-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in patch
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PATCH-303870
+  Introduced through: patch@2.7.6-3+deb10u1, build-essential@12.6
+  From: patch@2.7.6-3+deb10u1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > patch@2.7.6-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in patch
+  Description: Directory Traversal
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-PATCH-303893
+  Introduced through: patch@2.7.6-3+deb10u1, build-essential@12.6
+  From: patch@2.7.6-3+deb10u1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > patch@2.7.6-3+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssl
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-374709
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0, meta-common-packages@meta
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > ca-certificates@20200601~deb10u2 > openssl@1.1.1d-0+deb10u8
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1d-0+deb10u8
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssl
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSL-374996
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0, meta-common-packages@meta
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > ca-certificates@20200601~deb10u2 > openssl@1.1.1d-0+deb10u8
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1d-0+deb10u8
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: CVE-2016-20012
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-1585653
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Improper Privilege Management
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-1660419
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Improper Authentication
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-2422622
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-368617
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-368833
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-368925
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Improper Authentication
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-369016
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Inappropriate Encoding for Output Context
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-369020
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-472477
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-570880
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-574764
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: OS Command Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENSSH-590144
+  Introduced through: openssh/openssh-client@1:7.9p1-10+deb10u2
+  From: openssh/openssh-client@1:7.9p1-10+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openldap/libldap-common
+  Description: Improper Initialization
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENLDAP-304601
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3, gnupg2/gnupg@2.2.12-1+deb10u1
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6 > openldap/libldap-common@2.4.47+dfsg-3+deb10u6
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openldap/libldap-common
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENLDAP-304654
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3, gnupg2/gnupg@2.2.12-1+deb10u1
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6 > openldap/libldap-common@2.4.47+dfsg-3+deb10u6
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openldap/libldap-common
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENLDAP-304666
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3, gnupg2/gnupg@2.2.12-1+deb10u1
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6 > openldap/libldap-common@2.4.47+dfsg-3+deb10u6
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in openldap/libldap-common
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-OPENLDAP-584924
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3, gnupg2/gnupg@2.2.12-1+deb10u1
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6 > openldap/libldap-common@2.4.47+dfsg-3+deb10u6
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > openldap/libldap-2.4-2@2.4.47+dfsg-3+deb10u6
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-1019538
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-421178
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-421286
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-421369
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-421385
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: CVE-2020-6829
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-597144
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-597145
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-597153
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nss/libnss3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NSS-608060
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > nss/libnss3@2:3.42.1-1+deb10u5
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > ca-certificates-java@20190405 > nss/libnss3@2:3.42.1-1+deb10u5
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in nghttp2/libnghttp2-14
+  Description: Improper Enforcement of Message or Data Structure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NGHTTP2-1584531
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > nghttp2/libnghttp2-14@1.36.0-2+deb10u1
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > nghttp2/libnghttp2-14@1.36.0-2+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in ncurses/libncursesw6
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-NCURSES-1655739
+  Introduced through: meta-common-packages@meta, ncurses/ncurses-base@6.1+20181013-2+deb10u2, ncurses/ncurses-bin@6.1+20181013-2+deb10u2
+  From: meta-common-packages@meta > ncurses/libncursesw6@6.1+20181013-2+deb10u2
+  From: meta-common-packages@meta > ncurses/libtinfo6@6.1+20181013-2+deb10u2
+  From: ncurses/ncurses-base@6.1+20181013-2+deb10u2
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in lz4/liblz4-1
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LZ4-473072
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > lz4/liblz4-1@1.8.3-1+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libxml2
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBXML2-429486
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libxml2@2.9.4+dfsg1-7+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libxml2
+  Description: XML External Entity (XXE) Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBXML2-429496
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libxml2@2.9.4+dfsg1-7+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libwebp/libwebp6
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBWEBP-277882
+  Introduced through: libwebp/libwebp6@0.6.1-2+deb10u1, adwaita-icon-theme@3.30.1-1
+  From: libwebp/libwebp6@0.6.1-2+deb10u1
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3 > libwebp/libwebp6@0.6.1-2+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libtasn1-6
+  Description: CVE-2018-1000654
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBTASN16-339585
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libtasn1-6@4.13-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libssh2/libssh2-1
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSSH2-452460
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > libssh2/libssh2-1@1.8.0-2.1
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > libssh2/libssh2-1@1.8.0-2.1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libssh2/libssh2-1
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSSH2-474372
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > libssh2/libssh2-1@1.8.0-2.1
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > libssh2/libssh2-1@1.8.0-2.1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315628
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315630
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315636
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSEPOL-1315642
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libsepol/libsepol1@2.8-1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libseccomp/libseccomp2
+  Description: CVE-2019-9893
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBSECCOMP-341044
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libseccomp/libseccomp2@2.3.3-4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: CVE-2021-4214
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBPNG16-2363925
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libpng1.6/libpng16-16@1.6.36-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: CVE-2018-14048
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBPNG16-296440
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libpng1.6/libpng16-16@1.6.36-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBPNG16-296468
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libpng1.6/libpng16-16@1.6.36-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBPNG16-296471
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libpng1.6/libpng16-16@1.6.36-6
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libjpeg-turbo/libjpeg62-turbo
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBJPEGTURBO-1298595
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libjpeg-turbo/libjpeg62-turbo@1:1.5.2-2+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libjpeg-turbo/libjpeg62-turbo
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBJPEGTURBO-299879
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libjpeg-turbo/libjpeg62-turbo@1:1.5.2-2+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libjpeg-turbo/libjpeg62-turbo
+  Description: Excessive Iteration
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBJPEGTURBO-572943
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libjpeg-turbo/libjpeg62-turbo@1:1.5.2-2+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libidn2/libidn2-0
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBIDN2-474100
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libidn2/libidn2-0@2.0.5-1+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBGCRYPT20-1297893
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libgcrypt20@1.8.4-5+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBGCRYPT20-391902
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libgcrypt20@1.8.4-5+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBGCRYPT20-460489
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libgcrypt20@1.8.4-5+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libcroco/libcroco3
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBCROCO-300647
+  Introduced through: libcroco/libcroco3@0.6.12-3, adwaita-icon-theme@3.30.1-1
+  From: libcroco/libcroco3@0.6.12-3
+  From: adwaita-icon-theme@3.30.1-1 > librsvg/librsvg2-common@2.44.10-2.1 > librsvg/librsvg2-2@2.44.10-2.1 > libcroco/libcroco3@0.6.12-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libcroco/libcroco3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBCROCO-300673
+  Introduced through: libcroco/libcroco3@0.6.12-3, adwaita-icon-theme@3.30.1-1
+  From: libcroco/libcroco3@0.6.12-3
+  From: adwaita-icon-theme@3.30.1-1 > librsvg/librsvg2-common@2.44.10-2.1 > librsvg/librsvg2-2@2.44.10-2.1 > libcroco/libcroco3@0.6.12-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in libcroco/libcroco3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBCROCO-569056
+  Introduced through: libcroco/libcroco3@0.6.12-3, adwaita-icon-theme@3.30.1-1
+  From: libcroco/libcroco3@0.6.12-3
+  From: adwaita-icon-theme@3.30.1-1 > librsvg/librsvg2-common@2.44.10-2.1 > librsvg/librsvg2-2@2.44.10-2.1 > libcroco/libcroco3@0.6.12-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in krb5/libk5crypto3
+  Description: CVE-2004-0971
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-KRB5-395883
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3, openssh/openssh-client@1:7.9p1-10+deb10u2, google-cloud-sdk-app-engine-java@378.0.0-0, java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, krb5/krb5-locales@1.17-3+deb10u3, meta-common-packages@meta
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > krb5/libk5crypto3@1.17-3+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > krb5/libk5crypto3@1.17-3+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > krb5/libgssapi-krb5-2@1.17-3+deb10u3 > krb5/libk5crypto3@1.17-3+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in krb5/libk5crypto3
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-KRB5-395955
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3, openssh/openssh-client@1:7.9p1-10+deb10u2, google-cloud-sdk-app-engine-java@378.0.0-0, java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, krb5/krb5-locales@1.17-3+deb10u3, meta-common-packages@meta
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > krb5/libk5crypto3@1.17-3+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2 > krb5/libk5crypto3@1.17-3+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2 > krb5/libgssapi-krb5-2@1.17-3+deb10u3 > krb5/libk5crypto3@1.17-3+deb10u3
+  and 11 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in jbigkit/libjbig0
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-JBIGKIT-289888
+  Introduced through: jbigkit/libjbig0@2.1-3.1+b2, adwaita-icon-theme@3.30.1-1
+  From: jbigkit/libjbig0@2.1-3.1+b2
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3 > jbigkit/libjbig0@2.1-3.1+b2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in iptables/libxtables12
+  Description: CVE-2012-2663
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-IPTABLES-287323
+  Introduced through: iproute2@4.20.0-2+deb10u1, meta-common-packages@meta
+  From: iproute2@4.20.0-2+deb10u1 > iptables/libxtables12@1.8.2-4
+  From: meta-common-packages@meta > iptables/libip4tc0@1.8.2-4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in iptables/libxtables12
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-IPTABLES-451768
+  Introduced through: iproute2@4.20.0-2+deb10u1, meta-common-packages@meta
+  From: iproute2@4.20.0-2+deb10u1 > iptables/libxtables12@1.8.2-4
+  From: meta-common-packages@meta > iptables/libip4tc0@1.8.2-4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in iproute2
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-IPROUTE2-568742
+  Introduced through: iproute2@4.20.0-2+deb10u1
+  From: iproute2@4.20.0-2+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: CVE-2021-4209
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GNUTLS28-2419146
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > gnutls28/libgnutls30@3.6.7-4+deb10u7
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GNUTLS28-340755
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > gnutls28/libgnutls30@3.6.7-4+deb10u7
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Inadequate Encryption Strength
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GNUPG2-535553
+  Introduced through: gnupg2/gnupg@2.2.12-1+deb10u1, apt/apt-transport-https@1.8.2.3
+  From: gnupg2/gnupg@2.2.12-1+deb10u1 > gnupg2/gpgv@2.2.12-1+deb10u1
+  From: apt/apt-transport-https@1.8.2.3 > apt@1.8.2.3 > gnupg2/gpgv@2.2.12-1+deb10u1
+  From: gnupg2/gnupg@2.2.12-1+deb10u1 > gnupg2/dirmngr@2.2.12-1+deb10u1 > gnupg2/gpgconf@2.2.12-1+deb10u1
+  and 17 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1035462
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1055403
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1065768
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1078993
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1296899
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-1315333
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2021-3998
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-2340906
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-2340915
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2021-3999
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-2340921
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-2340923
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-338106
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-338163
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-356371
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-356735
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-452228
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2019-1010023
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-452267
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use of Insufficiently Random Values
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-453375
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-453640
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Improper Initialization
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-534995
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-559181
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-559488
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-559493
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Integer Underflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIBC-564233
+  Introduced through: build-essential@12.6, python3-defaults/python3-dev@3.7.3-1, glibc/libc-bin@2.28-10, meta-common-packages@meta
+  From: build-essential@12.6 > glibc/libc6-dev@2.28-10
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8/libstdc++-8-dev@8.3.0-6 > glibc/libc6-dev@2.28-10
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4 > glibc/libc6-dev@2.28-10
+  and 3 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glib2.0/libglib2.0-data
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIB20-1051691
+  Introduced through: glib2.0/libglib2.0-data@2.58.3-2+deb10u3, meta-common-packages@meta
+  From: glib2.0/libglib2.0-data@2.58.3-2+deb10u3
+  From: meta-common-packages@meta > glib2.0/libglib2.0-0@2.58.3-2+deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in glib2.0/libglib2.0-data
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GLIB20-300105
+  Introduced through: glib2.0/libglib2.0-data@2.58.3-2+deb10u3, meta-common-packages@meta
+  From: glib2.0/libglib2.0-data@2.58.3-2+deb10u3
+  From: meta-common-packages@meta > glib2.0/libglib2.0-0@2.58.3-2+deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIT-1083853
+  Introduced through: git@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > git/git-man@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in git/git-man
+  Description: CVE-2021-40330
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIT-1577271
+  Introduced through: git@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > git/git-man@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Exposure of Resource to Wrong Sphere
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIT-2399905
+  Introduced through: git@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > git/git-man@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIT-340854
+  Introduced through: git@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3 > git/git-man@1:2.20.1-2+deb10u3
+  From: git@1:2.20.1-2+deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in giflib/libgif7
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIFLIB-1253288
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > giflib/libgif7@5.1.4-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in giflib/libgif7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIFLIB-429779
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > giflib/libgif7@5.1.4-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in giflib/libgif7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIFLIB-429787
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > giflib/libgif7@5.1.4-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in giflib/libgif7
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GIFLIB-459719
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > giflib/libgif7@5.1.4-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in gcc-8
+  Description: Insufficient Entropy
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GCC8-469413
+  Introduced through: gcc-defaults/gcc@4:8.3.0-1, build-essential@12.6, gcc-8/libstdc++-8-dev@8.3.0-6, gcc-8/g++-8@8.3.0-6, meta-common-packages@meta
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8@8.3.0-6
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8@8.3.0-6
+  and 21 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in fribidi/libfribidi0
+  Description: CVE-2022-25309
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-FRIBIDI-2433111
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > fribidi/libfribidi0@1.0.5-3.1+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in fribidi/libfribidi0
+  Description: CVE-2022-25308
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-FRIBIDI-2433113
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > fribidi/libfribidi0@1.0.5-3.1+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in fribidi/libfribidi0
+  Description: CVE-2022-25310
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-FRIBIDI-2433119
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > fribidi/libfribidi0@1.0.5-3.1+deb10u1
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: XML External Entity (XXE) Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-EXPAT-358079
+  Introduced through: meta-common-packages@meta, python3-defaults/python3-dev@3.7.3-1
+  From: meta-common-packages@meta > expat/libexpat1@2.2.6-2+deb10u4
+  From: python3-defaults/python3-dev@3.7.3-1 > python3.7/python3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4
+  From: python3-defaults/python3-dev@3.7.3-1 > python3-defaults/libpython3-dev@3.7.3-1 > python3.7/libpython3.7-dev@3.7.3-2+deb10u3 > expat/libexpat1-dev@2.2.6-2+deb10u4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Missing Initialization of Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CURL-1296892
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2
+  From: curl@7.64.0-4+deb10u2
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Improper Validation of Integrity Check Value
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CURL-1322655
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2
+  From: curl@7.64.0-4+deb10u2
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Use of Incorrectly-Resolved Name or Reference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CURL-1322664
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2
+  From: curl@7.64.0-4+deb10u2
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Insufficiently Protected Credentials
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CURL-1322666
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2
+  From: curl@7.64.0-4+deb10u2
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Cleartext Transmission of Sensitive Information
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CURL-1585139
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2
+  From: curl@7.64.0-4+deb10u2
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Insufficient Verification of Data Authenticity
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CURL-1585143
+  Introduced through: curl@7.64.0-4+deb10u2, git@1:2.20.1-2+deb10u3
+  From: curl@7.64.0-4+deb10u2 > curl/libcurl4@7.64.0-4+deb10u2
+  From: curl@7.64.0-4+deb10u2
+  From: git@1:2.20.1-2+deb10u3 > curl/libcurl3-gnutls@7.64.0-4+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in cups/libcups2
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CUPS-364634
+  Introduced through: java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, google-cloud-sdk-app-engine-java@378.0.0-0
+  From: java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1 > gtk+2.0/libgtk2.0-0@2.24.32-3 > cups/libcups2@2.2.10-6+deb10u4
+  From: java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1 > gtk+3.0/libgtk-3-0@3.24.5-1 > cups/libcups2@2.2.10-6+deb10u4
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-COREUTILS-317465
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > coreutils@8.30-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in coreutils
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-COREUTILS-317494
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > coreutils@8.30-3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CAIRO-344862
+  Introduced through: cairo/libcairo2@1.16.0-4+deb10u1, gtk+2.0/libgail-common@2.24.32-3, gtk+3.0/libgtk-3-bin@3.24.5-1, java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, adwaita-icon-theme@3.30.1-1, cairo/libcairo-gobject2@1.16.0-4+deb10u1
+  From: cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+2.0/libgail-common@2.24.32-3 > cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+3.0/libgtk-3-bin@3.24.5-1 > cairo/libcairo2@1.16.0-4+deb10u1
+  and 10 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CAIRO-344881
+  Introduced through: cairo/libcairo2@1.16.0-4+deb10u1, gtk+2.0/libgail-common@2.24.32-3, gtk+3.0/libgtk-3-bin@3.24.5-1, java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, adwaita-icon-theme@3.30.1-1, cairo/libcairo-gobject2@1.16.0-4+deb10u1
+  From: cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+2.0/libgail-common@2.24.32-3 > cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+3.0/libgtk-3-bin@3.24.5-1 > cairo/libcairo2@1.16.0-4+deb10u1
+  and 10 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CAIRO-344889
+  Introduced through: cairo/libcairo2@1.16.0-4+deb10u1, gtk+2.0/libgail-common@2.24.32-3, gtk+3.0/libgtk-3-bin@3.24.5-1, java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, adwaita-icon-theme@3.30.1-1, cairo/libcairo-gobject2@1.16.0-4+deb10u1
+  From: cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+2.0/libgail-common@2.24.32-3 > cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+3.0/libgtk-3-bin@3.24.5-1 > cairo/libcairo2@1.16.0-4+deb10u1
+  and 10 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CAIRO-344897
+  Introduced through: cairo/libcairo2@1.16.0-4+deb10u1, gtk+2.0/libgail-common@2.24.32-3, gtk+3.0/libgtk-3-bin@3.24.5-1, java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, adwaita-icon-theme@3.30.1-1, cairo/libcairo-gobject2@1.16.0-4+deb10u1
+  From: cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+2.0/libgail-common@2.24.32-3 > cairo/libcairo2@1.16.0-4+deb10u1
+  From: gtk+3.0/libgtk-3-bin@3.24.5-1 > cairo/libcairo2@1.16.0-4+deb10u1
+  and 10 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1050281
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1050286
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1050291
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1050295
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1050299
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1054598
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1055017
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1055021
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Use of Uninitialized Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1055024
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1055152
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1055156
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1065550
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1086497
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1089439
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1244571
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1292159
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-1296882
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-2321368
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-2341554
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-337986
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-337990
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-337992
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-337999
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-338007
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-338012
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403696
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403777
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403817
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403841
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403861
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403865
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403873
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403909
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403933
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403941
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403945
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403961
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: CVE-2018-12698
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403977
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-403985
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404005
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404033
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404041
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404045
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404049
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404130
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404138
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404150
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404190
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404194
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404206
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404210
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404214
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404222
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-404270
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-451156
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-455443
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-455454
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-456012
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-456777
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-472909
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in binutils
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BINUTILS-472913
+  Introduced through: build-essential@12.6, gcc-defaults/gcc@4:8.3.0-1
+  From: build-essential@12.6 > dpkg/dpkg-dev@1.19.7 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6 > binutils@2.31.1-16 > binutils/binutils-common@2.31.1-16
+  and 5 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in bash
+  Description: Improper Check for Dropped Privileges
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-BASH-536280
+  Introduced through: bash@5.0-4
+  From: bash@5.0-4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in avahi/libavahi-common-data
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-AVAHI-1089437
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4 > avahi/libavahi-client3@0.7-4+deb10u1 > avahi/libavahi-common3@0.7-4+deb10u1 > avahi/libavahi-common-data@0.7-4+deb10u1
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4 > avahi/libavahi-common3@0.7-4+deb10u1
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4 > avahi/libavahi-client3@0.7-4+deb10u1 > avahi/libavahi-common3@0.7-4+deb10u1
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in avahi/libavahi-common-data
+  Description: Origin Validation Error
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-AVAHI-330424
+  Introduced through: google-cloud-sdk-app-engine-java@378.0.0-0
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4 > avahi/libavahi-client3@0.7-4+deb10u1 > avahi/libavahi-common3@0.7-4+deb10u1 > avahi/libavahi-common-data@0.7-4+deb10u1
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4 > avahi/libavahi-common3@0.7-4+deb10u1
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4 > avahi/libavahi-client3@0.7-4+deb10u1 > avahi/libavahi-common3@0.7-4+deb10u1
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in apt/libapt-pkg5.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-APT-407502
+  Introduced through: apt/apt-transport-https@1.8.2.3
+  From: apt/apt-transport-https@1.8.2.3 > apt@1.8.2.3 > apt/libapt-pkg5.0@1.8.2.3
+  From: apt/apt-transport-https@1.8.2.3 > apt@1.8.2.3
+  From: apt/apt-transport-https@1.8.2.3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Low severity vulnerability found in apparmor/libapparmor1
+  Description: Security Features
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-APPARMOR-345761
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > apparmor/libapparmor1@2.13.2-10
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2331934
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2399968
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2399971
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2419112
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2421377
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2421382
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2421383
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2421394
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ Medium severity vulnerability found in librsvg/librsvg2-2
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBRSVG-543970
+  Introduced through: librsvg/librsvg2-2@2.44.10-2.1, adwaita-icon-theme@3.30.1-1, librsvg/librsvg2-common@2.44.10-2.1
+  From: librsvg/librsvg2-2@2.44.10-2.1
+  From: adwaita-icon-theme@3.30.1-1 > librsvg/librsvg2-common@2.44.10-2.1 > librsvg/librsvg2-2@2.44.10-2.1
+  From: librsvg/librsvg2-common@2.44.10-2.1
+  and 1 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+✗ Medium severity vulnerability found in cups/libcups2
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-CUPS-1069984
+  Introduced through: java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1, google-cloud-sdk-app-engine-java@378.0.0-0
+  From: java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1 > gtk+2.0/libgtk2.0-0@2.24.32-3 > cups/libcups2@2.2.10-6+deb10u4
+  From: java-atk-wrapper/libatk-wrapper-java-jni@0.33.3-22+deb10u1 > gtk+3.0/libgtk-3-0@3.24.5-1 > cups/libcups2@2.2.10-6+deb10u4
+  From: google-cloud-sdk-app-engine-java@378.0.0-0 > openjdk-11/openjdk-11-jdk@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre@11.0.14+9-1~deb10u1 > openjdk-11/openjdk-11-jre-headless@11.0.14+9-1~deb10u1 > cups/libcups2@2.2.10-6+deb10u4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 2.2.10-6+deb10u5
+
+✗ High severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-TIFF-2420604
+  Introduced through: tiff/libtiff5@4.1.0+git191117-2~deb10u3, adwaita-icon-theme@3.30.1-1
+  From: tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  From: adwaita-icon-theme@3.30.1-1 > gtk+3.0/gtk-update-icon-cache@3.24.5-1 > gdk-pixbuf/libgdk-pixbuf2.0-0@2.38.1+dfsg-1 > tiff/libtiff5@4.1.0+git191117-2~deb10u3
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 4.1.0+git191117-2~deb10u4
+
+✗ High severity vulnerability found in libxml2
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-LIBXML2-2413976
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > libxml2@2.9.4+dfsg1-7+deb10u2
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 2.9.4+dfsg1-7+deb10u3
+
+✗ High severity vulnerability found in gmp/libgmp10
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GMP-1920939
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > gmp/libgmp10@2:6.1.2+dfsg-4
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+  Fixed in: 2:6.1.2+dfsg-4+deb10u1
+
+✗ High severity vulnerability found in gcc-8
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN10-GCC8-347558
+  Introduced through: gcc-defaults/gcc@4:8.3.0-1, build-essential@12.6, gcc-8/libstdc++-8-dev@8.3.0-6, gcc-8/g++-8@8.3.0-6, meta-common-packages@meta
+  From: gcc-defaults/gcc@4:8.3.0-1 > gcc-8@8.3.0-6
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8@8.3.0-6
+  From: build-essential@12.6 > gcc-defaults/g++@4:8.3.0-1 > gcc-8/g++-8@8.3.0-6 > gcc-8@8.3.0-6
+  and 21 more...
+  Image layer: Introduced by your base image (gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine)
+
+
+
+Organization:      jorgegabriel
+Package manager:   deb
+Target file:       /app/Dockerfile
+Project name:      docker-image|gcr.io/google.com/cloudsdktool/google-cloud-cli
+Docker image:      gcr.io/google.com/cloudsdktool/google-cloud-cli
+Platform:          linux/amd64
+Base image:        gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine
+Licenses:          enabled
+
+Tested 437 dependencies for known issues, found 268 issues.
+
+Currently, we only offer base image recommendations for Official Docker images
+
+-------------------------------------------------------
+
+Testing gcr.io/google.com/cloudsdktool/google-cloud-cli...
+
+Organization:      jorgegabriel
+Package manager:   maven
+Target file:       /usr/share/ca-certificates-java
+Project name:      gcr.io/google.com/cloudsdktool/google-cloud-cli:latest:/usr/share/ca-certificates-java
+Docker image:      gcr.io/google.com/cloudsdktool/google-cloud-cli
+Licenses:          enabled
+
+✔ Tested gcr.io/google.com/cloudsdktool/google-cloud-cli for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing gcr.io/google.com/cloudsdktool/google-cloud-cli...
+
+Organization:      jorgegabriel
+Package manager:   maven
+Target file:       /usr/share/java
+Project name:      gcr.io/google.com/cloudsdktool/google-cloud-cli:latest:/usr/share/java
+Docker image:      gcr.io/google.com/cloudsdktool/google-cloud-cli
+Licenses:          enabled
+
+✔ Tested gcr.io/google.com/cloudsdktool/google-cloud-cli for known issues, no vulnerable paths found.
+
+-------------------------------------------------------
+
+Testing gcr.io/google.com/cloudsdktool/google-cloud-cli...
+
+✗ Low severity vulnerability found in helm.sh/helm/v3/pkg/chartutil
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-GOLANG-HELMSHHELMV3PKGCHARTUTIL-1083980
+  Introduced through: helm.sh/helm/v3/pkg/chartutil@3.2.0
+  From: helm.sh/helm/v3/pkg/chartutil@3.2.0
+  Fixed in: 2.16.11, 3.3.2
+
+✗ Medium severity vulnerability found in helm.sh/helm/v3/pkg/chart
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-GOLANG-HELMSHHELMV3PKGCHART-1290070
+  Introduced through: helm.sh/helm/v3/pkg/chart@3.2.0
+  From: helm.sh/helm/v3/pkg/chart@3.2.0
+  Fixed in: 3.5.1
+
+✗ Medium severity vulnerability found in helm.sh/helm/v3/pkg/chart
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-GOLANG-HELMSHHELMV3PKGCHART-1314288
+  Introduced through: helm.sh/helm/v3/pkg/chart@3.2.0
+  From: helm.sh/helm/v3/pkg/chart@3.2.0
+  Fixed in: 3.6.1
+
+✗ Medium severity vulnerability found in github.com/Masterminds/goutils
+  Description: Insecure Randomness
+  Info: https://snyk.io/vuln/SNYK-GOLANG-GITHUBCOMMASTERMINDSGOUTILS-1296313
+  Introduced through: github.com/Masterminds/goutils@1.1.0
+  From: github.com/Masterminds/goutils@1.1.0
+  Fixed in: 1.1.1
+
+✗ High severity vulnerability found in github.com/ulikunitz/xz
+  Description: Infinite Loop
+  Info: https://snyk.io/vuln/SNYK-GOLANG-GITHUBCOMULIKUNITZXZ-598892
+  Introduced through: github.com/ulikunitz/xz@0.5.6
+  From: github.com/ulikunitz/xz@0.5.6
+  Fixed in: 0.5.8
+
+✗ High severity vulnerability found in github.com/ulikunitz/xz
+  Description: Denial of Service (DoS)
+  Info: https://snyk.io/vuln/SNYK-GOLANG-GITHUBCOMULIKUNITZXZ-607912
+  Introduced through: github.com/ulikunitz/xz@0.5.6
+  From: github.com/ulikunitz/xz@0.5.6
+  Fixed in: 0.5.8
+
+
+
+Organization:      jorgegabriel
+Package manager:   gomodules
+Target file:       /usr/lib/google-cloud-sdk/bin/anthoscli
+Project name:      anthoscli
+Docker image:      gcr.io/google.com/cloudsdktool/google-cloud-cli
+Licenses:          enabled
+
+Tested 787 dependencies for known issues, found 6 issues.
+
+
+Tested 4 projects, 2 contained vulnerable paths.
+
+
+
