@@ -36,5 +36,5 @@ docker scan --login
 
 Then, we be use the following command to scan docker images:
 ```bash
-docker scan --file Dockerfile cloud-sdk:alpine
+docker scan --file Dockerfile gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine
 ```
