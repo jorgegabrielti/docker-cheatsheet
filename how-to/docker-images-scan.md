@@ -38,3 +38,7 @@ Then, we be use the following command to scan docker images:
 ```bash
 docker scan --file Dockerfile gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine | tee -a scan_report.txt
 ```
+
+```bash
+docker scan --exclude-base --file Dockerfile gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine | tee -a scan_report-exclude-base.txt
+```
