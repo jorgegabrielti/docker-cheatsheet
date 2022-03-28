@@ -34,7 +34,7 @@ Make a login with command:
 docker scan --login
 ```
 
-Then, we be use the follow command to scan docker images:
+Then, we be use the following command to scan docker images:
 ```bash
 docker scan --file Dockerfile cloud-sdk:alpine
 ```
