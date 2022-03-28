@@ -17,5 +17,4 @@ Table of contents
 [//]: # "(## Feature)"
 [//]: # "(- [x] [Packages utils](src/conf/packages.txt))"
 
-Requirements
-==========
+
