@@ -2,6 +2,8 @@
 FROM python:slim-buster
 LABEL author="Jorge Gabriel [SRE]"
 
+WORKDIR /app
+
 RUN apt update -y \
   && apt install -y curl gnupg
 
@@ -12,8 +14,6 @@ RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.c
   && apt-get update -y \
   && apt-get install google-cloud-sdk -y
 
-WORKDIR /app
-
 COPY entrypoint.sh /app/
 
-CMD ["/app/venv/entrypoint.sh"]
+CMD ["/app/entrypoint.sh"]
