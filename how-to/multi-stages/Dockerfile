@@ -1,25 +1,19 @@
 # syntax=docker/dockerfile:1
-### Requiriments:
-# - python3
-# - pip3
-ARG BUILD_BASE_IMAGE=alpine:3.15.3
-FROM ${BUILD_BASE_IMAGE}
+FROM python:slim-buster
+LABEL author="Jorge Gabriel [SRE]"
+
+RUN apt update -y \
+  && apt install -y curl gnupg
+
+RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" \
+  | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list \
+  && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg \
+  | apt-key --keyring /usr/share/keyrings/cloud.google.gpg add - \
+  && apt-get update -y \
+  && apt-get install google-cloud-sdk -y
 
 WORKDIR /app
 
-RUN apk add --no-cache --upgrade bash
-
-RUN apk add curl \
-    && apk add --update --no-cache python3 \
-    && ln -sf python3 /usr/bin/python \
-    && python -m ensurepip \
-    && pip3 install --no-cache --upgrade pip setuptools
-
-RUN curl \
-    https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-378.0.0-linux-x86_64.tar.gz \
-    -o /tmp/google-cloud-sdk.tar.gz \
-    && tar -xvf /tmp/google-cloud-sdk.tar.gz -C /app
-
 COPY entrypoint.sh /app/
 
-ENTRYPOINT ["/app/entrypoint.sh"]
+CMD ["/app/venv/entrypoint.sh"]
