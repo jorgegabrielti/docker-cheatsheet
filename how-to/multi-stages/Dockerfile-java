@@ -6,8 +6,11 @@ COPY src src
 RUN mvn install
 
 FROM jboss/wildfly:8.2.1.Final as runtime
+
 WORKDIR /opt/jboss/wildfly/bin/
 
 COPY --from=build /usr/src/app/target/IntegracoesH4P.war /opt/jboss/wildfly/standalone/deployments/IntegracoesH4P.war
+
+ENV PATH=/opt/jboss/wildfly/bin:${PATH}
 
 CMD ["standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
