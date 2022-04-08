@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 FROM maven:3.6.1-jdk-8 as build
 
 WORKDIR /usr/src/app
