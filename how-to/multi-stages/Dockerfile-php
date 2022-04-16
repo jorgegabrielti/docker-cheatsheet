@@ -1,0 +1,24 @@
+FROM alpine 
+
+WORKDIR /opt/app
+
+RUN apk add \
+      php-cli php-mysqli php-session php7-pecl-memcached \
+      && adduser -h /opt/app -s /bin/sh -D -g 'Container user' php \ 
+      && chown -R php: /opt/app
+
+ENV DB_HOST=localhost \
+    DB_PORT=3306 \
+    DB_USER=user \
+    DB_PASS=pass \
+    DB_NAME=db
+
+COPY . .
+
+# MEMCACHED_HOST = m1:11211,m2:11211
+
+# USER php
+
+EXPOSE 8080
+
+ENTRYPOINT [ "/opt/app/docker-entrypoint.sh" ]
