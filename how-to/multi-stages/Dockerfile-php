@@ -17,7 +17,7 @@ COPY . .
 
 # MEMCACHED_HOST = m1:11211,m2:11211
 
-# USER php
+USER php
 
 EXPOSE 8080
 
